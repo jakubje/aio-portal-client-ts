@@ -1,9 +1,9 @@
 import { Metadata } from 'next';
 
 export const metadata: Metadata = {
-  title: 'Portfolio',
+  title: 'News',
 };
 
 export default async function Page() {
-  return <div>Portfolio</div>;
+  return <div className="bg-white dark:bg-black h-screen w-screen">News</div>;
 }

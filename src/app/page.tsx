@@ -1,11 +1,7 @@
-import Link from 'next/link';
-import { Links } from './components/links';
-
 export default function Page() {
   return (
-    <div>
-      <Link href="/dashboard">Dashboard</Link>
-      <Links />
+    <div className="bg-white dark:bg-black h-screen w-screen">
+      <h1>Welcome</h1>
     </div>
   );
 }
